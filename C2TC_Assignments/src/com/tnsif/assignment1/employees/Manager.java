@@ -1,4 +1,5 @@
 package com.tnsif.assignment1.employees;
+
 public class Manager extends Employee {
     private String department;
 
@@ -13,8 +14,5 @@ public class Manager extends Employee {
 
     public void setDepartment(String department) {
         this.department = department;
-	
-		
-	}
-
+    }
 }
